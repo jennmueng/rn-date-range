@@ -20,9 +20,9 @@ export default class Calendar extends React.Component {
 		onSelectionChange: () => {
 		},
 
-		monthsLocale: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran',
-			'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'],
-		weekDaysLocale: ['P', 'P', 'S', 'Ç', 'P', 'C', 'C'],
+		monthsLocale: ['January', 'February', 'March', 'April', 'May', 'June',
+			'July', 'August', 'September', 'October', 'November', 'December'],
+		weekDaysLocale: ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'],
 
 		width: width,
 
